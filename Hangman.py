@@ -8,4 +8,13 @@ superHeroes = ['hawkeye', 'robin', 'Galactus', 'thor', 'mystique', 'superman', '
 userGuesslist = []
 userGuesses = []
 playGame = True
+attempts = 0
+
+def setUp():
+    print("Staring game of Hangman...")
+    attempts = input("How many incorrect attempts do you want? ")
+    print("Selecting a word")
+
+
+setUp()
 
